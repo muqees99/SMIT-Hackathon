@@ -151,20 +151,34 @@
     }
 }
 
-.hero{
+.card {
+
     width: 100%;
     height: 100vh;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
-
-    h1 {
-        font-size: 50px;
-    }
+    background-image:
+        url(https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large/love-skye-zambrana.jpg);
 }
-.image {
-    background-image: url("./images/hamza-nouasria-6D9SCQwYJnQ-unsplash.jpg");
+heading {
+    width: 45%;
+    font-size: 40px;
+    color: white;
+    margin-left: 100px;
+}
+
+.para {
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.button {
+    margin-left: 100px;
+    margin-top: 200px;
+
+}
+button:hover {
+    background-color: black;
+    cursor: pointer;
+    color: white;
 }
